@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	font-family: 'Mulish', sans-serif;
+}
+
+body {
+	background: #1da1f2;
+	height: 100%;
+
+	padding: 50px;
+}
+
+.component {
+	background-color: #eee;
+	margin: 50px;
+	width: 500px;
+	min-width: 500px;
+	padding: 30px 40px;
+	border-radius: 10px;
+	box-shadow: 0 25px 60px -30px black;
+}
+
+.component h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.component .tags {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 5px;
+	margin: 0 -5px -5px;
+}
+
+.component .tags a {
+	height: 40px;
+	margin: 5px;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0 15px;
+	border-radius: 5px;
+	color: #1a1b38;
+	border: 1px solid #1a1b38;
+	transition: 300ms background-color;
+}
+.component .tags a:hover {
+	background-color: #f9a;
+}
+
+.component .authors {
+	padding-top: 20px;
+	color: #1a1b38;
+}
+
+.component .authors li {
+	display: flex;
+	align-items: center;
+}
+
+.component .authors li img {
+	width: 83px;
+	height: 83px;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+
+.component .authors li .name {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.component .authors li .name {
+	font-size: 16px;
+}
+
+.component .authors li .follow-btn {
+	margin: auto;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	background-color: #1a1b38;
+	padding: 0 15px;
+	border: 1px solid #ffc295;
+
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #eee;
+}
